@@ -1,0 +1,29 @@
+.bgOrange {
+    background-color: #fb8c00 !important;
+    border-color: #fb8c00 !important;
+    color: #fff;
+}
+
+.bgDarkOrange {
+    background-color: #E65100 !important;
+    border-color: #E65100 !important;
+    color: #fff;
+}
+
+.bgCyan {
+    background-color: #00bcd4 !important;
+    border-color: #00bcd4 !important;
+    color: #fff;
+}
+
+.bgPink {
+    background-color: #e91e63 !important;
+    border-color: #e91e63 !important;
+    color: #fff;
+}
+
+.bgNavy {
+    background-color: #1867c0 !important;
+    border-color: #1867c0 !important;
+    color: #fff;
+}
