@@ -1,0 +1,49 @@
+@import "../../global/mediaQuery.scss";
+
+.loo-navigation-drawer__continer {
+  top: 64px;
+  background-color: #DDDDDD;
+  width: 260px;
+  height:100vh;
+  position: fixed;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+  will-change: transform;
+  transition-property: transform, width;
+  transform: translateX(0%);
+
+  &.toggle {
+    transform: translateX(-100%);
+  }
+
+  .loo-navigation-drawer__content {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+   
+    .loo-list {
+      display: flex;
+      margin-bottom: 0;
+      .loo-list-item {
+        color: #fff;
+        font-size: 1.0rem;
+        .loo-list-item__action {
+          i {
+            color: #fff;
+            line-height: 0;
+            box-sizing: content-box;
+          }
+        }
+        .loo-list-item__content {
+          .loo-list-item__text {
+            padding: 0 10px;
+          }
+        }
+      
+      }
+      
+    }
+  }
+
+}
+

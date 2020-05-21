@@ -8,7 +8,6 @@ let toggleStatus = true;
 toggleButton.addEventListener("click", drawerToggle);
 
 function drawerToggle() {
-	console.log('toggle');
 	if(toggleStatus) {
 		drawer.classList.add("toggle");
 		toggleStatus = false;
