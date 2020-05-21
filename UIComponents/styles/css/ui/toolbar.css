@@ -1,0 +1,43 @@
+.toolbar__container {
+    background-color: #2E4393;
+    height: 64px;
+    left: 0;
+    right: 0;
+    /* border-bottom-left-radius: 20px;
+    margin: 0 120px;*/
+}
+
+.toolbar__content {
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 4px 16px;
+
+}
+
+.toolbar__navIcon {
+    color: #fff;
+    cursor: pointer;
+}
+
+.toolbar__title{
+    padding-left: 20px;
+    font-size: 1.15rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:100%;
+}
+
+.toolbar__actions {
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+    margin-right: 16px;
+}
+
+.toolbar__list {
+    padding: 8px 10px;
+
+}

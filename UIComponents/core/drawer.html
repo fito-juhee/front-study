@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/css/common.css">
+    <script defer src="../styles/fontawesome/js/all.js"></script>
+    <title>drawer UI</title>
+</head>
+<body>
+    <nav class="drawer__container">
+        <div>
+            <div class="drawer__header">
+                <a class="drawer-button__toolgle">
+                    <i class="fas fa-igloo fa-lg"></i>
+                    <span> ADMIN ESKIMO </span>
+                </a>
+            </div>
+            <ul class="drawer__ul flex-column">
+                <li class="drawer__li">
+                    <a class="drawer__link" href="#">
+                        <i class="fab fa-linux fa-lg"></i>
+                        <span class="drawer__text"> HOME </span>
+
+                    </a>
+                </li>
+                <li class="drawer__li">
+                    <a class="drawer__link" href="#">
+                        <i class="fas fa-palette fa-lg"></i>
+                        <span class="drawer__text"> STYLE </span>
+                    </a>
+                </li>
+                <li class="drawer__li">
+                    <a class="drawer__link" href="#">
+                        <i class="fas fa-columns fa-lg"></i>
+                        <span class="drawer__text"> UI </span>
+                    </a>
+                </li>
+                <li class="drawer__li">
+                    <a class="drawer__link" href="#">
+                        <i class="fas fa-paint-brush fa-lg"></i>
+                        <span class="drawer__text"> COLOR </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main style="display:flex; flex: 1 0 auto;">
+        <button class="btn drawerShowButton"> SHOW </button>
+        <button class="btn drawerHideButton"> HIDE </button>
+    </main>
+
+<script type="text/javascript">
+	var toggleButton = document.querySelector(".drawer-button__toolgle");
+	var drawer = document.querySelector(".drawer__container");
+	let showButton = document.querySelector(".drawerShowButton");
+	let hideButton = document.querySelector(".drawerHideButton");
+
+	toggleButton.addEventListener("click", drawerToggle);
+	showButton.addEventListener("click", showDrawer);
+	hideButton.addEventListener("click", hideDrawer);
+
+	function drawerToggle() {
+		console.log('toggle');
+		if(drawer.classList)
+		drawer.classList.add("toggle");
+	}
+
+	function showDrawer() {
+		drawer.classList.remove("toggle");
+    }
+
+	function hideDrawer() {
+		drawer.classList.add("toggle");
+	}
+
+</script>
+</body>
+</html>

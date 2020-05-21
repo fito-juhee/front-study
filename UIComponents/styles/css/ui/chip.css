@@ -1,0 +1,90 @@
+.chip {
+    background-color: #b7b7b7;
+    border-color: #b7b7b7;
+    color: #fff;
+    align-items: center;
+    cursor: default;
+    display: inline-flex;
+    line-height: 20px;
+    max-width: 100%;
+    outline: none;
+    overflow: hidden;
+    padding: 0 12px;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.28s;
+    transition-property: box-shadow, opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.chip.chip--outline {
+    background-color: transparent !important;
+    border-width: thin;
+    border-style: solid;
+    border-color: #fb8c00;
+    color: #fb8c00;
+}
+
+.chip .avatar {
+    height: 24px !important;
+    min-width: 24px !important;
+    width: 24px !important;
+}
+
+.chip--icon {
+    font-size: 24px;
+}
+
+.chip--label {
+    border-radius: 4px !important;
+}
+
+.chip--content {
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+    max-width: 100%;
+}
+
+.chip + .chip {
+    margin: 8px !important;
+}
+
+.buttonSection + .buttonSection {
+    margin: 8px 0 !important;
+}
+
+/* size 관려 css */
+
+.chip.size--default {
+    border-radius: 16px;
+    font-size: 14px;
+    height: 34px;
+}
+
+.chip.size--small {
+    border-radius: 12px;
+    font-size: 12px;
+    height: 24px;
+}
+
+.chip.size--x-small {
+    border-radius: 8px;
+    font-size: 10px;
+    height: 16px;
+}
+
+.chip.size--large {
+    border-radius: 27px;
+    font-size: 16px;
+    height: 54px;
+}
+
+.chip.size--x-large {
+    border-radius: 33px;
+    font-size: 18px;
+    height: 66px;
+}
+

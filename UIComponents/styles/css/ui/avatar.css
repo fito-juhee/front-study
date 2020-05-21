@@ -1,0 +1,20 @@
+.avatar {
+    align-items: center;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.avatar--right {
+    margin-left: 8px;
+    margin-right: -2px;
+}
+
+.avatar--left {
+    margin-left: -2px;
+    margin-right: 8px;
+}
