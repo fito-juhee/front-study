@@ -31,10 +31,14 @@
 </template>
 
 <script>
+import { createNamespacedHelpers } from "vuex";
+const { mapMutations: commonMapMutations } = createNamespacedHelpers("common");
+
 export default {
   methods: {
+    ...commonMapMutations(["SET_DRAWER"]),
     clickEvent: function() {
-      console.log("click");
+      this.SET_DRAWER(!this.$store.state.common.isDrawer);
     }
   }
 };
