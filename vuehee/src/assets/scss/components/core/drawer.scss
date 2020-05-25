@@ -37,6 +37,10 @@
       .loo-list-item {
         color: #000;
         font-size: 1.0rem;
+        &:hover{ 
+          cursor: pointer;
+          background-color: #f5f4f4;
+        }
         .loo-list-item__action {
           i {
             color: #000;

@@ -6,7 +6,7 @@
     <div class="loo-navigation-drawer__content">
       <div class="loo-list-item">
         <div class="loo-list-item__content">
-          <div class="loo-list-item__title">
+          <div class="loo-list-item__title title">
             No Vuetify
           </div>
         </div>

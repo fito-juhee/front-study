@@ -2,7 +2,10 @@
   <header class="loo-toolbar loo-toolbar__container">
     <div class="loo-toolbar__content">
       <div class="loo-toolbar__navIcon">
-        <button class="loo-btn loo-btn--flat loo-btn--icon" @click="clickEvent">
+        <button
+          class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round"
+          @click="clickEvent"
+        >
           <i class="fas fa-hamburger fa-2x"></i>
         </button>
       </div>
@@ -10,16 +13,26 @@
         <h5>PAGE TITLE</h5>
       </div>
       <ul class="loo-toolbar__actions">
-        <li class="loo-toolbar__list">
-          <a href="#">
-            <i class="fas fa-bell fa-lg"></i>
-          </a>
-        </li>
-        <li class="loo-toolbar__list">
-          <a href="#">
-            <i class="fas fa-cog fa-lg"></i>
-          </a>
-        </li>
+        <a href="#">
+          <li class="loo-toolbar__list">
+            <button
+              class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round"
+              @click="clickEvent"
+            >
+              <i class="fas fa-bell fa-2x"></i>
+            </button>
+          </li>
+        </a>
+        <a href="#">
+          <li class="loo-toolbar__list">
+            <button
+              class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round"
+              @click="clickEvent"
+            >
+              <i class="fas fa-cog fa-2x"></i>
+            </button>
+          </li>
+        </a>
       </ul>
     </div>
   </header>

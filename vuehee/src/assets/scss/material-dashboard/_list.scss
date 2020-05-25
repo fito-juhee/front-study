@@ -20,7 +20,21 @@
   }
 
   .loo-list-item__title {
-    line-height: 1.2;
+    flex: 1 1 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    align-self: center;
+    font-size: 1.2rem;
+  }
+  .loo-list-item__subtitle {
+    flex: 1 1 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .875rem;
+    color: #666;
+    padding: 3px 15px;
   }
 }
 
