@@ -1,0 +1,16 @@
+a {
+  text-transform: none;
+  text-decoration: none;
+}
+
+.loo-divider {
+  display: block;
+  flex: 1 1 0px;
+  max-width: 100%;
+  height: 0;
+  max-height: 0;
+  border: solid;
+  border-width: thin 0 0;
+  transition: inherit;
+}
+

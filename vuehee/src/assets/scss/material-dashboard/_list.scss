@@ -1,0 +1,46 @@
+.loo-list {
+  border-radius: 4px;
+  display: block;
+  padding: 8px 0;
+  position: static;
+  transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
+}
+.loo-list-item {
+  align-items: center;
+  display: flex;
+  flex: 1 1 100%;
+  letter-spacing: normal;
+  min-height: 48px;
+  outline: none;
+  padding: 0 16px;
+  position: relative;
+  text-decoration: none;
+
+  .loo-list-item__content {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+    overflow: hidden;
+    padding: 12px 0;
+  }
+
+  .loo-list-item__title {
+    flex: 1 1 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    align-self: center;
+    font-size: 1.2rem;
+  }
+  .loo-list-item__subtitle {
+    flex: 1 1 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .875rem;
+    color: #666;
+    padding: 3px 15px;
+  }
+}
