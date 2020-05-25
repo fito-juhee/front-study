@@ -17,7 +17,6 @@
           <li class="loo-toolbar__list">
             <button
               class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round"
-              @click="clickEvent"
             >
               <i class="fas fa-bell fa-2x"></i>
             </button>
@@ -27,7 +26,6 @@
           <li class="loo-toolbar__list">
             <button
               class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round"
-              @click="clickEvent"
             >
               <i class="fas fa-cog fa-2x"></i>
             </button>
