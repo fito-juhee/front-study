@@ -13,13 +13,13 @@
       </div>
       <hr class="loo-divider" />
       <div class="loo-list">
-        <div class="loo-list-item">
+        <div class="loo-list-item" v-for="item in listItems" :key="item">
           <div class="loo-list-item__content">
             <div class="loo-list-item__title">
-              grid
+              {{ item.title }}
             </div>
             <div class="loo-list-item__subtitle">
-              item2
+              {{ item.subtitle }}
             </div>
           </div>
         </div>
@@ -30,6 +30,7 @@
 
 <script>
 import { createNamespacedHelpers } from "vuex";
+import drawerValue from "../../assets/mocks/components/core/DrawerListItem.json";
 const {
   mapState: commonMapState,
   mapMutations: commonMapMutations
@@ -37,7 +38,9 @@ const {
 
 export default {
   data() {
-    return {};
+    return {
+      listItems: drawerValue.items
+    };
   },
   computed: {
     ...commonMapState(["isDrawer"]),

@@ -1,3 +1,10 @@
+.loo-list {
+  border-radius: 4px;
+  display: block;
+  padding: 8px 0;
+  position: static;
+  transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
+}
 .loo-list-item {
   align-items: center;
   display: flex;
@@ -37,4 +44,3 @@
     padding: 3px 15px;
   }
 }
-

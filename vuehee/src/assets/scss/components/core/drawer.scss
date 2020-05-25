@@ -33,10 +33,12 @@
     
     .loo-list {
       display: flex;
+      flex-direction: column;
       margin-bottom: 0;
       .loo-list-item {
         color: #000;
         font-size: 1.0rem;
+        padding: 0;
         &:hover{ 
           cursor: pointer;
           background-color: #f5f4f4;
@@ -51,6 +53,9 @@
         .loo-list-item__content {
           .loo-list-item__title {
             padding: 0 10px;
+          }
+          .loo-list-item__subtitle {
+            word-break:keep-all;
           }
         }
       

@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "title": "Grids",
+      "subtitle": "The grid is used to create specific layouts within an application's content.",
+      "to": ""
+    },
+    {
+      "title": "Display",
+      "subtitle": "The display helpers allow you to control the display of content.",
+      "to": ""
+    },
+    {
+      "title": "Flex",
+      "subtitle": "Control the layout of flex containers with alignment, justification and more with responsive flexbox utilities.",
+      "to": ""
+    }
+  ]
+}
