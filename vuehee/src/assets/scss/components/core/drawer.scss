@@ -15,35 +15,44 @@
   &.toggle {
     transform: translateX(-100%);
   }
+ 
+  .loo-navigation-drawer__header {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .loo-divider {
+      border-color: rgba(0,0,0,.12);
+    }
+  }
 
   .loo-navigation-drawer__content {
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-   
+    
     .loo-list {
       display: flex;
       margin-bottom: 0;
       .loo-list-item {
-        color: #fff;
+        color: #000;
         font-size: 1.0rem;
         .loo-list-item__action {
           i {
-            color: #fff;
+            color: #000;
             line-height: 0;
             box-sizing: content-box;
           }
         }
         .loo-list-item__content {
-          .loo-list-item__text {
+          .loo-list-item__title {
             padding: 0 10px;
           }
         }
       
       }
-      
     }
   }
-
 }
+
 

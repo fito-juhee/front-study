@@ -1,23 +1,31 @@
 <template>
-  <aside class="loo-navigation-drawer__continer" :class="{ toggle: isDrawer }">
+  <nav
+    class="loo-navigation-drawer loo-navigation-drawer__continer"
+    :class="{ toggle: isDrawer }"
+  >
     <div class="loo-navigation-drawer__content">
+      <div class="loo-list-item">
+        <div class="loo-list-item__content">
+          <div class="loo-list-item__title">
+            No Vuetify
+          </div>
+        </div>
+      </div>
+      <hr class="loo-divider" />
       <div class="loo-list">
         <div class="loo-list-item">
-          <div class="loo-list-item__action">
-            <i class="fas fa-contacts"></i>
-          </div>
           <div class="loo-list-item__content">
-            <div class="loo-list-item__text">
-              item1
+            <div class="loo-list-item__title">
+              grid
             </div>
-            <div class="loo-list-item__text">
+            <div class="loo-list-item__subtitle">
               item2
             </div>
           </div>
         </div>
       </div>
     </div>
-  </aside>
+  </nav>
 </template>
 
 <script>

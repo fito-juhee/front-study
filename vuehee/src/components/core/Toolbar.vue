@@ -1,5 +1,5 @@
 <template>
-  <header class="loo-toolbar__container">
+  <header class="loo-toolbar loo-toolbar__container">
     <div class="loo-toolbar__content">
       <div class="loo-toolbar__navIcon">
         <button class="loo-btn loo-btn--flat loo-btn--icon" @click="clickEvent">
@@ -18,11 +18,6 @@
         <li class="loo-toolbar__list">
           <a href="#">
             <i class="fas fa-cog fa-lg"></i>
-          </a>
-        </li>
-        <li class="loo-toolbar__list">
-          <a href="#">
-            <i class="fab fa-instagram fa-lg"></i>
           </a>
         </li>
       </ul>
