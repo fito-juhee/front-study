@@ -1,0 +1,10 @@
+.theme--light {
+  &.j-card {
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    .j-card__subtitle, >.j-card__text{
+      background-color: #fff;
+      color: rgba(0,0,0,.6);
+    }
+  }
+}
