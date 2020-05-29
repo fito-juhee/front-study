@@ -10,6 +10,11 @@
               max-width .25s cubic-bezier(.4,0,.2,1),
               width .25s cubic-bezier(.4,0,.2,1);
   box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+  &.loo__toolbar__fixed {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
   &.loo-toolbar__container {
     background-color: #01579B;
     color: #fff;

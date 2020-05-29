@@ -13,15 +13,14 @@
       </div>
       <hr class="loo-divider" />
       <div class="loo-list">
-        <div class="loo-list-item" v-for="item in listItems" :key="item">
-          <div class="loo-list-item__content">
-            <div class="loo-list-item__title">
-              {{ item.title }}
+        <div class="loo-list-item" v-for="item in listItems" :key="item.title">
+          <router-link :to="item.to">
+            <div class="loo-list-item__content">
+              <div class="loo-list-item__title">
+                {{ item.title }}
+              </div>
             </div>
-            <div class="loo-list-item__subtitle">
-              {{ item.subtitle }}
-            </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </div>
