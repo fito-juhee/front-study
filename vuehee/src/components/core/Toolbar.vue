@@ -1,5 +1,5 @@
 <template>
-  <header class="loo-toolbar loo-toolbar__container">
+  <header class="loo-toolbar loo__toolbar__fixed loo-toolbar__container">
     <div class="loo-toolbar__content">
       <div class="loo-toolbar__navIcon">
         <button
@@ -10,23 +10,21 @@
         </button>
       </div>
       <div class="loo-toolbar__title">
-        <h5>PAGE TITLE</h5>
+        <a href="/home">
+          <h5>PAGE TITLE</h5>
+        </a>
       </div>
       <ul class="loo-toolbar__actions">
         <a href="#">
           <li class="loo-toolbar__list">
-            <button
-              class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round"
-            >
+            <button class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round">
               <i class="fas fa-bell fa-2x"></i>
             </button>
           </li>
         </a>
         <a href="#">
           <li class="loo-toolbar__list">
-            <button
-              class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round"
-            >
+            <button class="loo-btn loo-btn--flat loo-btn--icon loo-btn--round">
               <i class="fas fa-cog fa-2x"></i>
             </button>
           </li>

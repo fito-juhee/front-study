@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="o-application">
     <core-toolbar></core-toolbar>
     <core-drawer></core-drawer>
     <core-content></core-content>
