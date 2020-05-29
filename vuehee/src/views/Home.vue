@@ -1,11 +1,7 @@
 <template>
   <div>
+    <img alt="Vue logo" src="@/assets/logo.png" />
     <h4>Home Hello! :)</h4>
-    <ul>
-      <li>
-        <a href="/home">Home</a>
-      </li>
-    </ul>
   </div>
 </template>
 
