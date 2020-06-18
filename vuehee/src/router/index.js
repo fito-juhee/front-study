@@ -6,6 +6,7 @@ import Home from "../views/Home.vue";
 import FlexBox from "../views/layout/FlexBox.vue";
 
 import Cards from "../views/components/Cards.vue";
+import Progress from "../views/components/Progress.vue";
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes = [
     path: "/components/card",
     name: "card",
     component: Cards
+  },
+  {
+    path: "/components/progress",
+    name: "progress",
+    component: Progress
   },
   {
     path: "*",
