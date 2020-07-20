@@ -7,6 +7,7 @@ import FlexBox from "../views/layout/FlexBox.vue";
 
 import Cards from "../views/components/Cards.vue";
 import Progress from "../views/components/Progress.vue";
+import BarChart from "../views/components/BarChart.vue";
 
 Vue.use(VueRouter);
 
@@ -30,6 +31,11 @@ const routes = [
     path: "/components/progress",
     name: "progress",
     component: Progress
+  },
+  {
+    path: "/chart/bar",
+    name: "bar",
+    component: BarChart
   },
   {
     path: "*",

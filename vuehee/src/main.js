@@ -8,6 +8,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 // component 를 전역으로 등록해서 사용
 import "./components/index";
+import "./plugins/highcharts-vue";
 
 Vue.config.productionTip = false;
 
